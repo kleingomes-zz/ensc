@@ -18,13 +18,15 @@
 #include <stdio.h>
 
 
-void init(void) {
+void init(void) 
+{
 	glClearColor(1.0, 1.0, 1.0, 0.0);
 	glMatrixMode(GL_PROJECTION);
 	gluOrtho2D(0.0, 200.0, 0.0, 150.0);
 }
 
-void drawTriangle() {
+void drawTriangle() 
+{
 	glColor3f(0.0, 1.0, 0.0);
 	glBegin(GL_TRIANGLES);
 	glVertex2i(5, 100);
@@ -33,7 +35,8 @@ void drawTriangle() {
 	glEnd();
 }
 
-void drawSquare() {
+void drawSquare() 
+{
 	glColor3f(1.0, 0.0, 0.0);
 	// Vertical Lines
 	glBegin(GL_LINES);
@@ -55,7 +58,8 @@ void drawSquare() {
 	glEnd();
 }
 
-void drawCircle() {
+void drawCircle() 
+{
 	glColor3f(0.0, 0.0, 1.0);
 	// Vertical Lines
 	glBegin(GL_TRIANGLE_FAN);
@@ -69,10 +73,9 @@ void drawCircle() {
 	glEnd();
 }
 
-void drawThreeShapes(void) {
+void drawThreeShapes(void) 
+{
 	glClear(GL_COLOR_BUFFER_BIT);
-	
-	
 	drawTriangle();
 	drawSquare();
 	drawCircle();
@@ -80,7 +83,8 @@ void drawThreeShapes(void) {
 }
 
 
-int main(int argc, char** argv) {
+int main(int argc, char** argv) 
+{
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
 	glutInitWindowPosition(50, 100);
