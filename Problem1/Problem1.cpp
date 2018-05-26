@@ -61,7 +61,6 @@ void drawSquare()
 void drawCircle() 
 {
 	glColor3f(0.0, 0.0, 1.0);
-	// Vertical Lines
 	glBegin(GL_TRIANGLE_FAN);
 	float x1 = 90;
 	float x2 = 90;
