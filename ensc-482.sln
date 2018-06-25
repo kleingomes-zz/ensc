@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem1", "Problem1\Problem1.vcxproj", "{0292B46C-F637-47B5-8D03-A26DC4B3B783}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Set1Problem1", "Problem1\Problem1.vcxproj", "{0292B46C-F637-47B5-8D03-A26DC4B3B783}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem2", "Problem2\Problem2.vcxproj", "{53B1E0C6-A2D6-43D5-B352-626CC2F10222}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Set1Problem2", "Problem2\Problem2.vcxproj", "{53B1E0C6-A2D6-43D5-B352-626CC2F10222}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem3", "Problem3\Problem3.vcxproj", "{2C90BE79-E9CA-4314-B713-EBB5F78A3380}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Set1Problem3", "Problem3\Problem3.vcxproj", "{2C90BE79-E9CA-4314-B713-EBB5F78A3380}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem4", "Problem4\Problem4.vcxproj", "{0B0A899D-0DC8-4421-85CF-38AAD706FAF7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Set1Problem4", "Problem4\Problem4.vcxproj", "{0B0A899D-0DC8-4421-85CF-38AAD706FAF7}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem5", "Problem5\Problem5.vcxproj", "{6B988B8F-50F4-4D44-85AF-44213C7FF91A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Set1Problem5", "Problem5\Problem5.vcxproj", "{6B988B8F-50F4-4D44-85AF-44213C7FF91A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem6", "Problem6\Problem6.vcxproj", "{042F9F3D-8CD2-418B-9D77-F8319044B434}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Set1Problem6", "Problem6\Problem6.vcxproj", "{042F9F3D-8CD2-418B-9D77-F8319044B434}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem7", "Problem7\Problem7.vcxproj", "{DD24C0BA-98F2-45E1-AFFC-CCB1E9E3EEFB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Set1Problem7", "Problem7\Problem7.vcxproj", "{DD24C0BA-98F2-45E1-AFFC-CCB1E9E3EEFB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Set2Problem1", "Set2Problem1\Set2Problem1.vcxproj", "{0A21980F-1433-42E2-9D8F-8CC733AFC9D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,14 @@ Global
 		{DD24C0BA-98F2-45E1-AFFC-CCB1E9E3EEFB}.Release|x64.Build.0 = Release|x64
 		{DD24C0BA-98F2-45E1-AFFC-CCB1E9E3EEFB}.Release|x86.ActiveCfg = Release|Win32
 		{DD24C0BA-98F2-45E1-AFFC-CCB1E9E3EEFB}.Release|x86.Build.0 = Release|Win32
+		{0A21980F-1433-42E2-9D8F-8CC733AFC9D1}.Debug|x64.ActiveCfg = Debug|x64
+		{0A21980F-1433-42E2-9D8F-8CC733AFC9D1}.Debug|x64.Build.0 = Debug|x64
+		{0A21980F-1433-42E2-9D8F-8CC733AFC9D1}.Debug|x86.ActiveCfg = Debug|Win32
+		{0A21980F-1433-42E2-9D8F-8CC733AFC9D1}.Debug|x86.Build.0 = Debug|Win32
+		{0A21980F-1433-42E2-9D8F-8CC733AFC9D1}.Release|x64.ActiveCfg = Release|x64
+		{0A21980F-1433-42E2-9D8F-8CC733AFC9D1}.Release|x64.Build.0 = Release|x64
+		{0A21980F-1433-42E2-9D8F-8CC733AFC9D1}.Release|x86.ActiveCfg = Release|Win32
+		{0A21980F-1433-42E2-9D8F-8CC733AFC9D1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
